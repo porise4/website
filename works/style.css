@@ -157,6 +157,7 @@ li {
     /* works */
     #works ul {
         flex-direction: column;
+        text-align: center;
     }
 
     #works ul li {

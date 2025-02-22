@@ -107,72 +107,9 @@ li {
     object-fit: cover;
 }
 
-/* about */
-#about .profile {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#about .profile ul li:first-child {
-    margin-bottom: 20px;
-}
-
-#about ul li {
-    margin-bottom: 3px;
-}
-
-#about ul li a {
-    font-size: 0.9rem;
-    color: #24292e;
-    transition: all 0.3s;
-}
-
-#about ul li a:hover {
-    opacity: 0.5;
-}
-
-#about p {
-    margin-top: 20px;
-}
-
-#about div div img {
-    width: 200px;
-}
-
-#about .kujira {
-    margin-top: 200px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-#about .kujira ul li ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-/* equipments */
-
-#equipments dl {
-    display: flex;
-    flex: wrap;
-}
-
-#equipments dl {
-    margin: 0 auto;
-}
-
-#equipments dt {
-    width: 20%;
-}
-
-#equipments dd {
-    width: 80%;
+/* works */
+#works img {
+    width: 400px;
 }
 
 /* links */
@@ -202,15 +139,13 @@ li {
         margin-left: 20px;
     }
 
-    /* about */
-    #about .profile {
+    /* works */
+    #works ul {
         flex-direction: column;
-        margin: 50px auto;
     }
-    
-    #about .kujira ul li ul {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+
+    #works ul li {
+        width: 100%;
+        margin-bottom: 50px;
     }
 }

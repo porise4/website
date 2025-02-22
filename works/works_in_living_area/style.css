@@ -5,7 +5,7 @@ html {
 
 body {
     color: #000000;
-    font-family: "Franklin Gothic Book " "Noto Sans JP", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 a {
@@ -124,6 +124,21 @@ li {
 
 #works div dl dd {
     margin-bottom: 10px;
+}
+
+/* blog */
+#blog h4 {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#blog h5 {
+    font-size: 1.5rem;
+}
+
+#blog p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
 }
 
 /* links */

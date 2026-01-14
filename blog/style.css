@@ -90,22 +90,6 @@ li {
     opacity: 0.5;
 }
 
-/* main */
-#main {
-    margin-bottom: 80px;
-}
-
-#main picture {
-    display: flex;
-    justify-content: center;
-}
-
-#main img {
-    width: 100%;
-    max-width: 1920px;
-    height: 400px;
-    object-fit: cover;
-}
 
 /* about */
 #about .profile {
@@ -156,31 +140,7 @@ li {
     justify-content: space-evenly;
 }
 
-/* equipments */
 
-#equipments dl {
-    display: flex;
-    flex: wrap;
-}
-
-#equipments dl {
-    margin: 0 auto;
-}
-
-#equipments dt {
-    width: 20%;
-}
-
-#equipments dd {
-    width: 80%;
-}
-
-/* links */
-#links ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
 /* sp */
 @media screen and (max-width: 600px) {

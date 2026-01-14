@@ -43,7 +43,6 @@ li {
 
 .sec-title {
     font-size: 1.5rem;
-    text-align: center;
     margin-bottom: 65px;
 }
 
@@ -62,10 +61,8 @@ li {
 /* header */
 #header {
     max-width: 960px;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
+    margin: 40px 0px 0px 0px;
     padding: 0 4%;
     height: 170px;
 }
@@ -90,35 +87,10 @@ li {
     opacity: 0.5;
 }
 
-/* main */
-#main {
-    margin-bottom: 80px;
-}
-
-#main picture {
-    display: flex;
-    justify-content: center;
-}
-
-#main img {
-    width: 100%;
-    max-width: 1920px;
-    height: 400px;
-    object-fit: cover;
-}
-
 /* works */
 #works img {
     width: 400px;
 }
-
-/* links */
-#links ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 /* sp */
 @media screen and (max-width: 600px) {
     .site-title {

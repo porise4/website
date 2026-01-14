@@ -61,10 +61,8 @@ li {
 /* header */
 #header {
     max-width: 960px;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
+    margin: 40px 0px 0px 0px;
     padding: 0 4%;
     height: 170px;
 }
